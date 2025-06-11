@@ -1,0 +1,17 @@
+# slim Python Image
+FROM python:3.9-slim-buster
+
+# Working dir of the container
+WORKDIR /app
+
+# Copy the requirements file into the container
+COPY requirements.txt .
+
+# Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Clone of the producer script
+COPY datagen-producer.py .
+
+# Command to run  producer script
+CMD ["python", "datagen-producer.py"]
