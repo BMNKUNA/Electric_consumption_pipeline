@@ -5,6 +5,11 @@ Note: I have included my local scripts and GCP scrpits inside my VM) I practical
 🧠 Project Overview
 This pipeline continuously generates and streams synthetic electricity consumption data, which is processed and stored for analytics and visualization.
 
+💡 Architectural Diagram
+Here's the architectural overview of the deployed pipeline on Google Cloud
+![DE Pipeline updated](https://github.com/user-attachments/assets/117d5037-db4e-4088-8069-20067697913a)
+
+
 📌 Use Case
 Real-time ingestion and validation of electricity consumption metrics.
 
