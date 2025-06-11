@@ -69,9 +69,6 @@ voltage	INT
 
 Example query:
 
-sql
-Copy
-Edit
 SELECT * FROM gp_electric_cons;
 📊 Example Output (Google Cloud SQL)
 id	timestamp	city	sector	power_cons_in_kwh	voltage
@@ -90,12 +87,16 @@ Predictive modeling and anomaly detection
 
 🧱 Challenges Faced
 🐳 Docker Compatibility Issues
-Kafka Bitnami containers were initially incompatible with ARM64 architecture (local M1 MacBook & GCP VM).
+Kafka Bitnami containers were initially incompatible with ARM64 architecture (local Windows x64 & GCP VM).
 
 Needed to customize Dockerfiles and switch base images to support ARM64.
 
 🔄 Cloud VM Setup
 Setting up persistent Docker containers with systemd required:
+
+VPC Network Confiurations for:
+postgress, kfaka within docker.
+local machine for local ssh of vm instance
 
 Custom unit files
 
