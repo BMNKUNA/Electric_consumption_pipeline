@@ -1,5 +1,5 @@
 🔌 Real-time Electricity Consumption Data Pipeline (End-to-End)
-This project demonstrates an end-to-end real-time data streaming pipeline for electricity consumption in Gauteng using Python, Kafka, Docker, from local machine to  Google Cloud services. It simulates smart meter data generation, performs real-time validation, and persists clean data from msqlite to into a managed SQL database, ready for analytics.
+This projectnow also described on https://www.mondenkuna.co.za/projects/electricity-consumption-pipeline is a project that demonstrates an end-to-end real-time data streaming pipeline for electricity consumption in Gauteng using Python, Kafka, Docker, from local machine to  Google Cloud services. It simulates smart meter data generation, performs real-time validation, and persists clean data from msqlite to into a managed SQL database, ready for analytics.
 Note: I have included my local scripts and GCP scrpits inside my VM) I practically workd on the Locally ones and aided adjsutments on deploymnent to VM)
 
 🧠 Project Overview
