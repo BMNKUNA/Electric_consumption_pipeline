@@ -7,7 +7,8 @@ This pipeline continuously generates and streams synthetic electricity consumpti
 
 💡 Architectural Diagram
 Here's the architectural overview of the deployed pipeline on Google Cloud
-![DE Pipeline updated](https://github.com/user-attachments/assets/117d5037-db4e-4088-8069-20067697913a)
+![DE Final Diagram](https://github.com/user-attachments/assets/d1374920-dae9-46a0-a883-9363e6fc3687)
+
 
 
 📌 Use Case
